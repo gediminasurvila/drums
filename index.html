@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+       <button class="snare" data-key="65">Snare drum <span>A</span></button>
+       <button class="htom" data-key="83">High tom <span>S</span></button>
+       <button class="mtom" data-key="68">Medium tom <span>D</span></button>
+       <button class="ftom" data-key="70">Floor tom <span>F</span></button>
+       <button class="hat" data-key="76">Hi-Hat cymbal <span>L</span></button>
+       <button class="crash" data-key="75">Crash cymbal <span>K</span></button>
+       <button class="ride" data-key="74">Ride cymbal <span>J</span></button>
+       <button class="bass" data-key="32">Bass drum <span>Space</span></button>
+   </div>
+   <audio data-key="32" src="sounds/koja.wav"></audio>
+   <audio data-key="65" src="sounds/solo.wav"></audio>
+   <audio data-key="76" src="sounds/carlis.wav"></audio>
+   <audio data-key="70" src="sounds/low.wav"></audio>
+   <audio data-key="75" src="sounds/lekste1.wav"></audio>
+   <audio data-key="74" src="sounds/lekste2.wav"></audio>
+   <audio data-key="83" src="sounds/tom1.wav"></audio>
+   <audio data-key="68" src="sounds/tom2.wav"></audio>
+   <script src="js/app.js"></script>
+</body>
+</html>
